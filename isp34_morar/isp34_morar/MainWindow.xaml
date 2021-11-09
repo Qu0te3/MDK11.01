@@ -1,0 +1,47 @@
+﻿<Window x:Class="isp34_morar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:isp34_morar"
+        mc:Ignorable="d"
+        Title="Практическая работа №5" Height="220" Width="320" MinHeight="210" MinWidth="320" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition MaxHeight="20"/>
+            <RowDefinition MaxHeight="35" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="Команды">
+                <MenuItem x:Name="calculatePerimeter" Header="Рассчитать периметр" Click="calculatePerimeter_Click"/>
+                <MenuItem x:Name="increaseBy2" Header="Увеличить размер на 2" Click="increaseBy2_Click"/>
+            </MenuItem> 
+            <Separator/>
+            <MenuItem Header="Управление программой">
+                <MenuItem x:Name="about" Header="О программе" Click="about_Click"/>
+                <MenuItem x:Name="clear" Header="Очистить" Click="clear_Click"/>
+                <MenuItem x:Name="exit" Header="Закрыть" Click="exit_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <StackPanel Grid.Row="1" Margin="10" Orientation="Horizontal" MinHeight="15">
+            <CheckBox x:Name="isThreeSides" Content="Вкл" Margin="30 0 0 0" Click="isThreeSides_Click" />
+            <CheckBox x:Name="isOneSide" Content="Вкл" Margin="130 0 0 0" Click="isOneSide_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0" >
+            <TextBox x:Name="inputSideA"  Tag="Длина стороны a" MinWidth="110" MinHeight="20" Margin="10 10 0 0" HorizontalAlignment="Left" Height="20" IsEnabled="False"/>
+            <TextBox x:Name="inputSideB"  Tag="Длина стороны b" MinWidth="110" MinHeight="20" Margin="10 10 0 0" HorizontalAlignment="Left" Height="20" IsEnabled="False"/>
+            <TextBox x:Name="inputSideC"  Tag="Длина стороны c" MinWidth="110" MinHeight="20" Margin="10 10 0 0" HorizontalAlignment="Left" Height="20" IsEnabled="False"/>
+            <TextBlock Text="Или" HorizontalAlignment="Center" Margin="0 -50 20 0"/>
+            <TextBox x:Name="inputSide" Tag="Длина для всех сторон" MinWidth="110" MinHeight="20" Margin="0 -80 10 0" HorizontalAlignment="Right" Height="20" IsEnabled="False"/>
+            <Grid Height="30" Width="180" HorizontalAlignment="Left" Margin="10 5 0 10">
+                <TextBlock Text="Периметр: " HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="perimeterOutput" HorizontalAlignment="Right" Width="110" Height="20" VerticalAlignment="Center" IsReadOnly="True"/>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.exe
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.deps.json
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.runtimeconfig.json
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.runtimeconfig.dev.json
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.dll
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ref\ghfr 6.dll
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\bin\Debug\net5.0-windows\ghfr 6.pdb
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6_MarkupCompile.cache
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6_MarkupCompile.lref
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.g.resources
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.AssemblyInfoInputs.cache
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.AssemblyInfo.cs
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.csproj.CoreCompileInputs.cache
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.dll
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ref\ghfr 6.dll
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.pdb
+C:\Users\исп-34\source\repos\ghfr 7\ghfr 7\obj\Debug\net5.0-windows\ghfr 6.genruntimeconfig.cache

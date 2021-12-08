@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\praktih3v2\praktih3v2.csproj" />
+    <ProjectReference Include="..\WpfLibrary1\WpfLibrary1.csproj" />
+  </ItemGroup>
+
+</Project>

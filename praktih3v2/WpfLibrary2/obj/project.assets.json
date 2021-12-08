@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "praktih3v2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "WpfLibrary1": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/praktih3v2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/praktih3v2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WpfLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WpfLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfLibrary1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "praktih3v2/1.0.0": {
+      "type": "project",
+      "path": "../praktih3v2/praktih3v2.csproj",
+      "msbuildProject": "../praktih3v2/praktih3v2.csproj"
+    },
+    "WpfLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../WpfLibrary1/WpfLibrary1.csproj",
+      "msbuildProject": "../WpfLibrary1/WpfLibrary1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "WpfLibrary1 >= 1.0.0",
+      "praktih3v2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Владислав\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary2\\WpfLibrary2.csproj",
+      "projectName": "WpfLibrary2",
+      "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary2\\WpfLibrary2.csproj",
+      "packagesPath": "C:\\Users\\Владислав\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Владислав\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj": {
+              "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj"
+            },
+            "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj": {
+              "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

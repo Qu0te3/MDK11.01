@@ -1,0 +1,59 @@
+﻿<Window x:Class="practih8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practih8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="401" Width="603">
+    <Window.Resources>
+        <Style x:Key="placeHolder" TargetType="{x:Type TextBox}" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <TextBox Text="{Binding Path=Text,
+                                                RelativeSource={RelativeSource TemplatedParent}, 
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                 x:Name="textSource" 
+                                 Background="Transparent" 
+                                 Panel.ZIndex="2" />
+                            <TextBox Text="{TemplateBinding Tag}" Background="{TemplateBinding Background}" Panel.ZIndex="1">
+                                <TextBox.Style>
+                                    <Style TargetType="{x:Type TextBox}">
+                                        <Setter Property="Foreground" Value="Transparent"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Path=Text, Source={x:Reference textSource}}" Value="">
+                                                <Setter Property="Foreground" Value="Gray"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBox.Style>
+                            </TextBox>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Height="443" VerticalAlignment="Top" HorizontalAlignment="Center" Width="603">
+        <Menu VerticalAlignment="Top">
+            <MenuItem x:Name="about" Header="О программе" Click="about_Click"/>
+            <MenuItem x:Name="clear" Header="Очистить" Click="clear_Click"/>
+            <MenuItem x:Name="exit" Header="Выход" Click="exit_Click"/>
+        </Menu>
+        <TextBox x:Name="inputMainCount" Style="{StaticResource placeHolder}"  Tag="Количество чисел" Margin="11,144,169,0" VerticalAlignment="Top" Height="20" KeyDown="inputCount_KeyDown" PreviewKeyDown="inputCount_PreviewKeyDown"/>
+        <ListBox x:Name="mainListBox" Margin="0,23,169,59"/>
+        <Button x:Name="startMain" Content="Запустить" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Height="20" Width="140" Click="start_Click"/>
+        <TextBox x:Name="inputMainStartValue" Style="{StaticResource placeHolder}" Tag="Начальное значение" Margin="11,194,181,0"  VerticalAlignment="Top" Height="20" KeyDown="inputCount_KeyDown" PreviewKeyDown="inputCount_PreviewKeyDown"/>
+        <ListBox x:Name="secondaryListBox" Margin="165,24,16,59"/>
+        <Button x:Name="clone" Content="Клонировать" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" Width="140" Click="clone_Click" Background="#FFFBFBFB" />
+        <TextBox x:Name="inputSecondaryCount" Style="{StaticResource placeHolder}"  Tag="Количество чисел" Margin="165,194,227,0" VerticalAlignment="Top" Height="20" KeyDown="inputCount_KeyDown" PreviewKeyDown="inputCount_PreviewKeyDown"/>
+        <Button x:Name="startSecondary" Content="Запустить" HorizontalAlignment="Left" Margin="201,230,0,0" VerticalAlignment="Top" Height="20" Width="139" Click="startSecondary_Click" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="inputSecondaryStartValue" Style="{StaticResource placeHolder}" Tag="Начальное значение" Margin="376,194,16,0"  VerticalAlignment="Top" Height="20" KeyDown="inputCount_KeyDown" PreviewKeyDown="inputCount_PreviewKeyDown"/>
+        <Button x:Name="compare" Content="Сравнить" HorizontalAlignment="Left" Margin="412,230,0,0" VerticalAlignment="Top" Width="140" Click="compare_Click"/>
+
+
+    </Grid>
+</Window>

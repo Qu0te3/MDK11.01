@@ -1,0 +1,22 @@
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.exe
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.deps.json
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.runtimeconfig.json
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.runtimeconfig.dev.json
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.dll
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\ref\practih 9.dll
+C:\Users\исп-34\source\repos\practih 9\practih 9\bin\Debug\net5.0-windows\practih 9.pdb
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.csproj.AssemblyReference.cache
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9_MarkupCompile.cache
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9_MarkupCompile.lref
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.g.resources
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.AssemblyInfoInputs.cache
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.AssemblyInfo.cs
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.csproj.CoreCompileInputs.cache
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.dll
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\ref\practih 9.dll
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.pdb
+C:\Users\исп-34\source\repos\practih 9\practih 9\obj\Debug\net5.0-windows\practih 9.genruntimeconfig.cache

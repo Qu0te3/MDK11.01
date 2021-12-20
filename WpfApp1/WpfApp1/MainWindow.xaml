@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="1" Height="384" Width="264" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="Команды">
+                <MenuItem x:Name="StartCalc" Header="Начать расчет" Click="StartCalc_Click"/>
+                <MenuItem x:Name="Clear" Header="Очистить" Click="Clear_Click"/>
+            </MenuItem>
+            <MenuItem Header="Программа">
+                <MenuItem x:Name="About" Header="О программе" Click="About_Click"/>
+                <MenuItem x:Name="Exit" Header="Выход" Click="Exit_Click"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="CalcOutput" HorizontalAlignment="Left" Height="225" Margin="20,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" IsReadOnly="True"/>
+        <TextBox x:Name="InputK" HorizontalAlignment="Left" Margin="20,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <Label Content="Некоторое число K:" HorizontalAlignment="Left" Margin="20,33,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

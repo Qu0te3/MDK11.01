@@ -1,0 +1,41 @@
+﻿<Window x:Class="Praktih11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktih11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="608" Width="534">
+    <Grid Margin="0,0,0,15" HorizontalAlignment="Center" Width="534">
+        <Menu VerticalAlignment="Top">
+            <MenuItem x:Name="about" Header="О программе" Click="about_Click"/>
+            <MenuItem x:Name="exit" Header="Выход" Click="exit_Click"/>
+        </Menu>
+        <GroupBox Header="Первая строка" Margin="10,24,70,282">
+            <Grid Height="269" Margin="0,0,-2,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60*"/>
+                    <RowDefinition Height="209*"/>
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Left" Margin="6,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="98"><Run Language="ru-ru" Text="Исходная строка: "/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Margin="4,24,0,0" TextWrapping="Wrap" Text="aa aba abba abbba abca abea" VerticalAlignment="Top" Width="165" IsReadOnly="True" Height="20"/>
+                <Button x:Name="applyFirstFilter" Content="Применить фильтр" HorizontalAlignment="Left" Margin="205,24,0,0" VerticalAlignment="Top" Width="165" Height="20" Click="applyFirstFilter_Click"/>
+                <ListBox x:Name="firstListBox" Margin="4,0,10,28" Grid.Row="1"/>
+
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Вторая строка" Margin="10,298,70,9">
+            <Grid Height="245" HorizontalAlignment="Left" Width="434">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="179*"/>
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Left" Margin="6,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.RowSpan="2"><Run Language="ru-ru" Text="Исходная строка: "/></TextBlock>
+                <TextBox HorizontalAlignment="Left" Margin="0,14,0,0" TextWrapping="Wrap" Text="a1a a2a a3a a4a a5a aba aca" VerticalAlignment="Top" Width="165" IsReadOnly="True" Height="20" Grid.Row="1" />
+                <Button x:Name="applySecondFilter" Content="Применить фильтр" HorizontalAlignment="Left" Margin="205,14,0,0" VerticalAlignment="Top" Width="155" Height="20" Click="applySecondFilter_Click" Grid.Row="1"/>
+                <ListBox x:Name="secondListBox" Margin="5,46,0,4" Grid.Row="1"/>
+
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

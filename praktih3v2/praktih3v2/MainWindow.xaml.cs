@@ -12,8 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfLibrary1;
-using WpfLibrary2;
+using LibMatrix;
+using Lib_5;
+using Microsoft.Win32;
 
 namespace praktih3v2
 {
@@ -32,8 +33,17 @@ namespace praktih3v2
 
         private void fileSave_Click(object sender, RoutedEventArgs e)
         {
+            SaveFileDialog saveFileDialog = new SaveFileDialog
+            {
+                DefaultExt = ".txt"
+            };
             if (mainDataGrid.ItemsSource != null)
-                matrixActs.Save();
+            {
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    matrixActs.Save(saveFileDialog.FileName);
+                }
+            }
             else MessageBox.Show("Нечего сохранять", "Ошибка");
         }
 
@@ -48,22 +58,36 @@ namespace praktih3v2
 
         private void generateMatrix_Click(object sender, RoutedEventArgs e)
         {
-            bool isNEmpty = Int32.TryParse(inputN.Text, out int n);
-            bool isMEmpty = Int32.TryParse(inputM.Text, out int m);
-            if (isNEmpty && isMEmpty && n > 0 && m > 0)
+
+            try
             {
+                int n = Int32.Parse(inputN.Text);
+                int m = Int32.Parse(inputM.Text);
                 _matrix = matrixActs.Generate(n, m);
                 mainDataGrid.ItemsSource = VisualMatrix.ToDataTable(_matrix).DefaultView;
             }
-            else MessageBox.Show("Введите правильные числа(положительное целое число)", "Ошибка");
+            catch
+            {
+                MessageBox.Show("Введите правильные числа(положительное целое число)", "Ошибка");
+            }
         }
 
         private void fileOpen_Click(object sender, RoutedEventArgs e)
         {
-            _matrix = matrixActs.Open();
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                DefaultExt = ".txt"
+            };
+
+            if (openFileDialog.ShowDialog() == false)
+            {
+                return;
+            }
+
+            _matrix = matrixActs.Open(openFileDialog.FileName);
             inputN.Text = Convert.ToString(_matrix.GetLength(0));
             inputM.Text = Convert.ToString(_matrix.GetLength(1));
-            mainDataGrid.ItemsSource = VisualMatrix.ToDataTable(_matrix).DefaultView;
+            mainDataGrid.ItemsSource = _matrix.ToDataTable().DefaultView;
         }
 
         private void calculate_Click(object sender, RoutedEventArgs e)
@@ -73,6 +97,19 @@ namespace praktih3v2
                 resOutput.Text = Convert.ToString(string.Join(" | ", averageUneven.AverageUneven(_matrix)));
             }
             else MessageBox.Show("Сначала сгенерируйте таблицу", "Ошибка");
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Практическая работа №3 \n" +
+                "Морарь Владислав ИСП-34\n" +
+                "Дана матрица размера M × N. Для каждой строки матрицы с нечетным номером (1, 3, …) " +
+                "найти среднее арифметическое ее элементов. Условный оператор не использовать.", "О программе", MessageBoxButton.OK);
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

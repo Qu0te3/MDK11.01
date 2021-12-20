@@ -4,14 +4,14 @@
     "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj": {
+    "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj",
-        "projectName": "praktih3v2",
-        "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj",
+        "projectUniqueName": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj",
+        "projectName": "LibMatrix",
+        "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj",
         "packagesPath": "C:\\Users\\Владислав\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\obj\\",
+        "outputPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,11 +31,7 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {
-              "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj": {
-                "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -69,14 +65,72 @@
         }
       }
     },
-    "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj": {
+    "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj",
-        "projectName": "WpfLibrary1",
-        "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj",
+        "projectName": "Lib_5",
+        "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj",
         "packagesPath": "C:\\Users\\Владислав\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владислав\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj",
+        "projectName": "praktih3v2",
+        "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\praktih3v2.csproj",
+        "packagesPath": "C:\\Users\\Владислав\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\praktih3v2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -96,7 +150,14 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj": {
+                "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj"
+              },
+              "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj": {
+                "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

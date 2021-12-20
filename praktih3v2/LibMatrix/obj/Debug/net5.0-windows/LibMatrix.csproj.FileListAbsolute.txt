@@ -1,0 +1,60 @@
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.AssemblyReference.cache
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\исп-34\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csprojAssemblyReference.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.AssemblyReference.cache
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Silvan\Desktop\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.AssemblyReference.cache
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+G:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.AssemblyReference.cache
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Владислав\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb

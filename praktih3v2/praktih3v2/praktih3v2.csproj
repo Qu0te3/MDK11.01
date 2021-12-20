@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WpfLibrary1\WpfLibrary1.csproj" />
+    <Compile Remove="BasicModules.cs" />
+    <Compile Remove="CalculateModules.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\LibMatrix\LibMatrix.csproj" />
+    <ProjectReference Include="..\..\..\..\Desktop\Новая папка (4)\isp2281337 v.15 01.01\isp2281337 v.3 01.01\Lib_5\Lib_5.csproj" />
   </ItemGroup>
 
 </Project>

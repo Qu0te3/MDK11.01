@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:praktih3v2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="3" Width="480" Height="400"  MinHeight="300" MinWidth="480" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -31,16 +31,18 @@
             <MenuItem Header="Программа">
                 <MenuItem x:Name="about"
                           Header="О программе"
+                          Click="about_Click"
                           />
                 <MenuItem x:Name="exit" 
                           Header="Выход"
+                          Click="exit_Click"
                           />
             </MenuItem>
         </Menu>
 
         <StackPanel Grid.Row="1" Margin="20 0">
             <Label Content="Кол-во строк: " Margin="10 10 0 0"/>
-            <TextBox x:Name="inputN" Margin="100 -20 0 0" Width="96" HorizontalAlignment="Left" Height="20"/>
+            <TextBox x:Name="inputN" Margin="100 -20 0 0" Width="90" HorizontalAlignment="Left" Height="20"/>
             <Label Content="Кол-во столбцов: " Margin="10 10 0 0"/>
             <TextBox x:Name="inputM" Margin="120 -20 0 0" Width="90" HorizontalAlignment="Left" Height="20"/>
             <Button x:Name="generateMatrix" HorizontalAlignment="Right" Padding="5" Content="Сгенерировать" Margin="0 -40 10 0" Width="150" Click="generateMatrix_Click"/>

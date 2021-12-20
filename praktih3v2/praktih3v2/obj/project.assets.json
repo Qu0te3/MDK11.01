@@ -2,31 +2,47 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "WpfLibrary1/1.0.0": {
+      "LibMatrix/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/WpfLibrary1.dll": {}
+          "bin/placeholder/LibMatrix.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WpfLibrary1.dll": {}
+          "bin/placeholder/LibMatrix.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "Lib_5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Lib_5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib_5.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "WpfLibrary1/1.0.0": {
+    "LibMatrix/1.0.0": {
       "type": "project",
-      "path": "../WpfLibrary1/WpfLibrary1.csproj",
-      "msbuildProject": "../WpfLibrary1/WpfLibrary1.csproj"
+      "path": "../../../../Desktop/Новая папка (4)/isp2281337 v.15 01.01/isp2281337 v.3 01.01/LibMatrix/LibMatrix.csproj",
+      "msbuildProject": "../../../../Desktop/Новая папка (4)/isp2281337 v.15 01.01/isp2281337 v.3 01.01/LibMatrix/LibMatrix.csproj"
+    },
+    "Lib_5/1.0.0": {
+      "type": "project",
+      "path": "../../../../Desktop/Новая папка (4)/isp2281337 v.15 01.01/isp2281337 v.3 01.01/Lib_5/Lib_5.csproj",
+      "msbuildProject": "../../../../Desktop/Новая папка (4)/isp2281337 v.15 01.01/isp2281337 v.3 01.01/Lib_5/Lib_5.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "WpfLibrary1 >= 1.0.0"
+      "LibMatrix >= 1.0.0",
+      "Lib_5 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,8 +77,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj": {
-              "projectPath": "C:\\Users\\Владислав\\source\\repos\\praktih3v2\\WpfLibrary1\\WpfLibrary1.csproj"
+            "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj": {
+              "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\LibMatrix\\LibMatrix.csproj"
+            },
+            "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj": {
+              "projectPath": "C:\\Users\\Владислав\\Desktop\\Новая папка (4)\\isp2281337 v.15 01.01\\isp2281337 v.3 01.01\\Lib_5\\Lib_5.csproj"
             }
           }
         }

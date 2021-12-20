@@ -1,0 +1,12 @@
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\bin\Debug\net5.0-windows\Lib_6.deps.json
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\bin\Debug\net5.0-windows\Lib_6.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\bin\Debug\net5.0-windows\ref\Lib_6.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\bin\Debug\net5.0-windows\Lib_6.pdb
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.csprojAssemblyReference.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.GeneratedMSBuildEditorConfig.editorconfig
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.AssemblyInfoInputs.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.AssemblyInfo.cs
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.csproj.CoreCompileInputs.cache
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\ref\Lib_6.dll
+F:\III курс\МДК 01.01 (РПМ)\Работы\isp2281337 v.2 01.01\Lib_5\obj\Debug\net5.0-windows\Lib_6.pdb

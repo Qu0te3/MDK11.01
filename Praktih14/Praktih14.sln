@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktih14", "Praktih14\Praktih14.csproj", "{32FD4A22-2510-4AED-B0E8-EBCED82EA12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMatrix", "LibMatrix\LibMatrix.csproj", "{ABCD5F2C-A103-4418-B577-D11FB9F8C372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FD4A22-2510-4AED-B0E8-EBCED82EA12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FD4A22-2510-4AED-B0E8-EBCED82EA12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FD4A22-2510-4AED-B0E8-EBCED82EA12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FD4A22-2510-4AED-B0E8-EBCED82EA12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD5F2C-A103-4418-B577-D11FB9F8C372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD5F2C-A103-4418-B577-D11FB9F8C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCD5F2C-A103-4418-B577-D11FB9F8C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCD5F2C-A103-4418-B577-D11FB9F8C372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83D32B93-E712-4C08-9923-EDA9C9037F7A}
+	EndGlobalSection
+EndGlobal

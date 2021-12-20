@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Praktih14/1.0.0": {
+        "dependencies": {
+          "LibMatrix": "1.0.0"
+        },
+        "runtime": {
+          "Praktih14.dll": {}
+        }
+      },
+      "LibMatrix/1.0.0": {
+        "runtime": {
+          "LibMatrix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praktih14/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibMatrix/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

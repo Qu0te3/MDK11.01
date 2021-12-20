@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="info.jpg" />
+    <None Remove="open.jpg" />
+    <None Remove="save.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibMatrix\LibMatrix.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="info.jpg" />
+    <Resource Include="open.jpg" />
+    <Resource Include="save.jpg" />
+  </ItemGroup>
+
+</Project>

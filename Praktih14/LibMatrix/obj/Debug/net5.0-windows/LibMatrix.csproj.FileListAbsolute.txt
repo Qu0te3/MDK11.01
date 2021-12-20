@@ -1,0 +1,11 @@
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfoInputs.cache
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.AssemblyInfo.cs
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.deps.json
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\bin\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\bin\Debug\net5.0-windows\LibMatrix.pdb
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.dll
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\ref\LibMatrix.dll
+C:\Users\Владислав\source\repos\Praktih14\LibMatrix\obj\Debug\net5.0-windows\LibMatrix.pdb
